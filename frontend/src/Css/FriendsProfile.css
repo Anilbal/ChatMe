@@ -1,0 +1,108 @@
+.friendsMain-profile{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+/* friends profile components css */
+.friends-details{
+    /* border: 1px solid black; */
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #e5e5e5;
+
+}
+.firstFriends_div{
+    display: flex;
+    gap: 70px;
+    margin-left: 50px;
+}
+.image_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.image_div img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.friends_usernameDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+}
+.friends_usernameDiv h3{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.friends_usernameDiv button{
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    background: #09bc8a;
+    border: none;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.friends_usernameDiv button:hover{
+    background: black;
+    transition: all 0.3s ease;
+}
+.friends-photos{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* margin-left: 30px; */
+}
+.friends-photos p{
+    text-align: center;
+    text-decoration: underline;
+   
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.image-grid img{
+    height: 200px;
+    width: 300px;
+}
+
+
+/* friends following  components css */
+.left-friends{
+    padding: 20px;
+    /* border: 1px solid black; */
+    background-color: #e5e5e5;
+
+}
+.left-friends h2{
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+.friendsFollowing{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.friendsFollowing img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.friendsFollowing p{
+    color: black;
+    letter-spacing: 1px;
+}

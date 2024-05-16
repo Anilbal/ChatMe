@@ -1,0 +1,90 @@
+.rigthSidebar{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.suggest{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    height: 320px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 0.8rem;
+}
+.suggest-all{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.suggest-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-suggest{
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notfollowed{
+    font-size: 23px;
+    color: orangered;
+}
+.success-follow{
+    font-size: 23px;
+    color: green;
+}
+.suggest-data{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.suggest-image{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+
+/* !blog */
+.blog{
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: white;
+    border-radius: 0.8rem;
+}
+.blog h4{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.blog-image{
+    height: 45px;
+    width: 45px;
+    border-radius: 0.1rem;
+}
+.blog-all{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blogging{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: bold;
+}
+.blogging p{
+    color: black;
+    letter-spacing: 1px;
+}

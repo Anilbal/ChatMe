@@ -1,0 +1,80 @@
+.leftsidebar{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* padding: 10px; */
+}
+.activity{
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 350px;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.activity-title{
+    display: flex;
+    justify-content: space-between;
+}
+.react-p{
+    text-decoration: none;
+    color: orangered;
+}
+.userNotice{
+    display: flex;flex-direction: column;
+    gap: 15px;
+}
+.notice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notice span{
+    font-size: 20px;
+    color: orangered;
+    cursor: pointer;
+}
+.user-notice{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.left-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* !explore sections */
+.explore{
+    background: white;
+    padding: 20px;
+    border-radius: 0.8rem;
+}
+.explore-title{
+    display: flex;
+    justify-content: space-between;
+}
+.explore-title h4, .explore-title p{
+    cursor: pointer;
+}
+.explore-all{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.explore-all img{
+    height: 170px;
+    width: 110px;
+    border-radius: 0.3rem;
+}

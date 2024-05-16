@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.user-layout{
+    display: grid;
+    grid-template-columns: 0.8fr 3fr;
+    background-color: #e5e5e5;
+    /* border-top: 1px solid gray; */
+}

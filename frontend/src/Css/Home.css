@@ -1,0 +1,7 @@
+.main-home{
+    padding: 40px;
+    background-color: #e5e5e5;
+    display: grid;
+    grid-template-columns: 1.2fr 2fr 1fr;
+    gap: 20px;
+}

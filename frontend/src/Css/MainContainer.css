@@ -1,0 +1,169 @@
+.mainContainer{
+    /* border: 1px solid black; */
+    padding: 0px 10px;
+}
+
+.first-maincontainer{
+    padding: 0px 10px;
+   background-color: white;
+   margin-top: 15px;
+   width: 100%;
+   border-radius: 0.5rem;
+}
+.first-status{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.first-status textarea{
+    border: none;    
+    outline: none;
+    padding: 4px 10px;
+    height: 26px;
+    font-size: 16px;
+}
+.mainContainer-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.first-post{
+    display: flex;
+    padding: 15px 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons-maincontainer{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.icons-maincontainer input{
+    display: none;
+}
+.icons-maincontainer label{
+    color: orangered;
+    cursor: pointer;
+}
+.icons-maincontainer select{
+    outline: none;
+    color: orangered;
+    cursor: pointer;
+}
+.mainContainer-btn{
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    background: orangered;
+    border: none;
+    color: white;
+    border-radius: 0.3rem;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.mainContainer-btn:hover{
+    background: black;
+    transition: all 0.3s;
+}
+
+/* !blog */
+.post-blog{
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+}
+.post-blog hr{
+    width: 5px;
+    background: orangered;
+}
+.post-blog p{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.second-mainContainer{
+    /* padding: 10px 15px; */
+    /* border: 1px solid black; */
+    background: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 0.6rem;
+}
+.user-caption{
+    padding: 0px 20px;
+}
+.second-user{
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-postData{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.second-user p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.second-user span{
+    font-size: 20px;
+    cursor: pointer;
+}
+.user-postImage{
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+.second-like{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.second-like ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.like-icons{
+    font-size: 25px;
+    color: gray;
+}
+.liked-icons{
+   color: orangered;
+}
+.comment-icons{
+    font-size: 20px;
+    color: gray;    
+    margin-top: 6px;
+}
+.second-comments{
+    padding: 10px 15px 20px 15px;
+   border-top: 1px solid gray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-comments{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.second-comments span{
+    font-size: 20px;
+    cursor: pointer;
+}

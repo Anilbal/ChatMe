@@ -1,0 +1,57 @@
+.hero{
+    height: 90vh;
+    background: #003554; 
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+    color: white;
+    border-top: 2px solid gray;
+}
+.hero-details{
+    padding: 40px;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+.hero-details h2{
+    font-size: 40px;
+}
+.hero-details p{
+    font-size: 18px;
+}
+.hero img{
+    height: 500px;
+    width: 450px;
+    margin-left: 10px;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 2px 1px #ffffff;
+}
+
+
+/* !hero three css */
+.hero-three{
+    height: 60vh;
+    background: #003554; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    color: white;
+    border-top: 2px solid gray;
+}
+.heroThree{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.heroThree h2{
+    font-size: 40px;
+}
+.heroThree p{
+    font-size: 20px;
+}

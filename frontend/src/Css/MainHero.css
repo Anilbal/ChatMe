@@ -1,0 +1,52 @@
+.main-hero{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.image-div{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter: blur(2px);
+}
+.details-hero{
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 80rem;
+    top: 30%;
+    color: white;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.details-hero h2{
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.details-hero p{
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.details-hero button{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    background: orangered;
+    border: none;
+    border-radius: 0.2rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    color: white;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.details-hero button:hover{
+    background: #000;
+    transition: all 0.3s;
+
+}

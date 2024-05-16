@@ -1,0 +1,51 @@
+.footer{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #003554; 
+    border-top: 2px solid gray;
+
+}
+.sub-footer{
+    display: flex;
+    gap: 130px;
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.sub-footer h2{
+    margin-right: 50px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: orangered;
+}
+.pages, .useful-links, .contact{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}   
+.pages h3, .useful-links h3, .contact h3{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.pages ul, .useful-links ul, .contact ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact ul li{
+    display: flex;
+    gap: 10px;
+}
+.copy-right{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: white;
+}

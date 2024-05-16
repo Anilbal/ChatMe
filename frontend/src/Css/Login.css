@@ -1,0 +1,81 @@
+.login{
+    background: #003554; 
+    height: 100vh;
+    padding: 30px;
+}
+.login h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: orangered;
+    font-family: monospace;
+    cursor: pointer;
+    margin-left: 30px;
+    /* font-family: cursive; */
+}
+.login-details{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    margin-left: 420px;
+    background: black;
+    color: white;
+    padding: 40px;
+    gap: 50px;
+    border-radius: 0.2rem;
+}
+
+.log-sign{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.log input{
+    height: 40px;
+    padding: 20px;
+    background: #495057;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 15px;
+    color: white;
+}
+.log input::placeholder{
+    color: white;
+}
+.log-btn{
+    height: 40px;
+    font-size: 20px;
+    background: orangered;
+    color: white;
+    border: none;
+}
+.log-btn:hover{
+    color: black;
+}
+.log-for{
+    margin-top: -20px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+} 
+.log-for:hover{
+    color: red;
+}
+.sign-btn{
+    margin-left: 10px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+}
+.sign-btn:hover{
+    color: red;
+}
